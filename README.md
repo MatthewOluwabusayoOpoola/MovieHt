@@ -2,6 +2,7 @@
 MovieHt is the best movies database application
 
 ## Technologies
+- Vite
 - React
 - SCSS
 
