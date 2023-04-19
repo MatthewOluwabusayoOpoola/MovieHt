@@ -18,7 +18,7 @@
     .pageTitle {
         font-size: 24px;
         line-height: 34px;
-        color: white;
+        color: rgb(8, 8, 8);
         margin-bottom: 20px;
         @include md {
             margin-bottom: 0;
@@ -55,22 +55,22 @@
                 .react-select__value-container {
                     .react-select__placeholder,
                     .react-select__input-container {
-                        color: white;
+                        color: rgb(245, 244, 244);
                         margin: 0 10px;
                     }
                 }
                 .react-select__single-value {
-                    color: white;
+                    color: rgb(254, 252, 252);
                 }
                 .react-select__multi-value {
                     background-color: var(--black3);
                     border-radius: 10px;
                     .react-select__multi-value__label {
-                        color: white;
+                        color: rgb(252, 250, 250);
                     }
                     .react-select__multi-value__remove {
                         background-color: transparent;
-                        color: white;
+                        color: rgb(248, 247, 247);
                         cursor: pointer;
                         &:hover {
                             color: var(--black-lighter);
@@ -90,6 +90,7 @@
         flex-flow: row wrap;
         gap: 10px;
         margin-bottom: 50px;
+       
         @include md {
             gap: 20px;
         }
